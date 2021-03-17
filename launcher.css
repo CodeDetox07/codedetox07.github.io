@@ -3,12 +3,12 @@
 }
 
 .author-name::after {
-   content: "ArcaneCC";
+   content: "Code Detox";
    color: #ff0000;
 }
 
 .blogtitle::after {
-   content: "1.7.10 Updates";
+   content: "Initial Release";
 }
 
 .blogcontent::after {
