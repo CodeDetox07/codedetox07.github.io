@@ -1,48 +1,22 @@
-.blog-post-title::after {
-	content: "CheatBreaker Update #26";
-	white-space: pre-wrap
+.blog-author-skin {
+    background-image: url('https://minotar.net/helm/58025126-17c2-4fe3-bbc9-81519341f7d6/32.png'); 
 }
 
-.blog-post-date::after {
-	content: "May 5th, 2021";
-	white-space: pre-wrap
+.author-name::after {
+   content: "Nucloida";
+   color: red;
 }
 
-.blog-post-description::after {
-	content: "This launcher update brings many new features, this update is experimental and will likely have bugs. Please report them using the bug report button.";
-	white-space: pre-wrap
+.blogtitle::after {
+   content: "Local Test Post";
 }
 
-.bold-post1::after {
-	content: "● CheatBreaker 2017 now supports Microsoft accounts";
-	white-space: pre-wrap
+.blogcontent::after {
+   white-space: pre-wrap;
+   font-weight: bold;
+   content: "Test";
 }
 
-.bold-post1details::after {
-	content: "⚬ From now on, newly purchased Minecraft Accounts that are Microsoft Accounts will be able to be used with CheatBreaker 2017, as well as Mojang Accounts.";
-	white-space: pre-wrap
-}
-
-.bold-post2::after {
-	content: "● CheatBreakerAPI Updates";
-	white-space: pre-wrap
-}
-
-.bold-post2details::after {
-	content: "⚬ Added banwave packets to both the experimental API and client.";
-	white-space: pre-wrap
-}
-
-.bold-post2details2::after {
-	content: "⚬ Removed Voice Related Packets.";
-	white-space: pre-wrap
-}
-
-.bold-post3::after {
-	content: "● Replaced the spacebar line with \"SPACE\" text.";
-	white-space: pre-wrap
-}
-
-.author::after {
-	content: "Nucloida"
+.about-responsemain::after {
+   content: "Test";
 }
